@@ -1321,7 +1321,7 @@ label>button:hover {
         /* Unicode character for "plus" sign (+) */
         font-size: 18px;
         color: #777;
-        margin-left: 25px;
+        margin-left: 20px;
     }
 
     .active:after {
