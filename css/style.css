@@ -906,7 +906,10 @@ label>button:hover {
 }
 
 .footer-link,
-.footer-list {
+.footer-list,
+.footer-home-list,
+.footer-menu-list,
+.footer-campany-list {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -1263,6 +1266,10 @@ label>button:hover {
         margin-bottom: 14px;
     }
 
+    .contact-title {
+        font-size: 25px;
+    }
+
     .input-box {
         position: relative;
     }
@@ -1276,7 +1283,7 @@ label>button:hover {
         /* top: 60px;
         left: 0; */
         top: 100px;
-        left: 10%;
+        left: 15%;
     }
 
     .input-area::placeholder {
@@ -1285,11 +1292,13 @@ label>button:hover {
 
     /*?========= FOOTER======== */
     .footer {
-        padding: 100px 0;
+        padding: 80px 0;
     }
 
-    .contact-title {
-        font-size: 25px;
+    .footer-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
     }
 
     .footer-logo-box,
@@ -1299,55 +1308,48 @@ label>button:hover {
         display: block;
     }
 
-    .footer-wrapper {
-        flex-direction: column;
-        justify-content: flex-start;
-        gap: 50px;
-    }
-
     .adaptive-block-1 {
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         gap: 30px;
         text-align: center;
-        margin-left: 75px;
     }
 
     .adaptive-block-2 {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        /* align-items: flex-end; */
         gap: 30px;
         text-align: center;
-        margin-right: 110px;
+        /* margin-right: 110px; */
     }
 
     .adaptive-block-3 {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        /* align-items: flex-start; */
         gap: 30px;
         text-align: center;
-        margin-left: 100px;
+        /* margin-left: 100px; */
     }
 
     .adaptive-block-4 {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        /* align-items: flex-end; */
         gap: 30px;
         text-align: center;
-        margin-right: 120px;
+        /* margin-right: 120px; */
     }
 
     .media-lists {
         display: none;
     }
 
-    .adaptive-block-5 {
+    /* .adaptive-block-5 {
         margin-right: 25px;
-    }
+    } */
 
     .adaptive-media-lists {
         display: block;
@@ -1359,15 +1361,6 @@ label>button:hover {
 
     .adaptive-media-lists img {
         width: 200%;
-    }
-
-    .footer-logo-box img {
-        display: none;
-    }
-
-    .adaptive-block-zero {
-        display: block;
-        text-align: center;
     }
 
     /*? SlickSlider */
