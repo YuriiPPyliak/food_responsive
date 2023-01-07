@@ -884,9 +884,7 @@ label>button:hover {
     padding: 130px 0 105px;
 }
 
-.footer-wrapper,
-.adaptive-block-1,
-.adaptive-block-2 {
+.footer-wrapper {
     display: flex;
     justify-content: flex-end;
     gap: 115px;
@@ -929,6 +927,10 @@ label>button:hover {
 }
 
 .adaptive-block-zero {
+    display: none;
+}
+
+.accordion-box {
     display: none;
 }
 
@@ -1196,7 +1198,7 @@ label>button:hover {
 
     /*?======= MOBILE BLOCK======== */
     .mobile-wrapper {
-        padding: 100px 0;
+        padding: 50px 0;
     }
 
     .mobile-content {
@@ -1257,7 +1259,7 @@ label>button:hover {
     }
 
     .work-position {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     /*?===== CONTACT BLOCK===== */
@@ -1298,16 +1300,45 @@ label>button:hover {
     .footer-wrapper {
         flex-direction: column;
         justify-content: center;
-        gap: 50px;
+        gap: 5px;
     }
 
-    .footer-logo-box,
     .footer-home,
     .footer-menu,
     .footer-company {
-        display: block;
+        display: none;
     }
 
+    /*! ======ACCORDION BLOCK======== */
+    .accordion-box {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .accordion-wrapper {}
+
+    .accordion {
+        position: relative;
+        background: #252525;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        padding: 18px;
+    }
+
+    .active,
+    .accordion:hover {
+        background-color: #252525;
+    }
+
+    .panel {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+    }
+
+    /*! ======ACCORDION BLOCK======== */
     .adaptive-block-1 {
         display: flex;
         flex-direction: column;
