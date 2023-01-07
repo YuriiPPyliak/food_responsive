@@ -1309,14 +1309,25 @@ label>button:hover {
         display: none;
     }
 
-    /*! ======ACCORDION BLOCK======== */
+    /*! =========================ACCORDION BLOCK========================== */
     .accordion-box {
         display: block;
         margin: 0 auto;
         text-align: center;
     }
 
-    .accordion-wrapper {}
+    .accordion:after {
+        content: '\2BB7';
+        /* Unicode character for "plus" sign (+) */
+        font-size: 18px;
+        color: #777;
+        margin-left: 25px;
+    }
+
+    .active:after {
+        content: "\2BB5";
+        /* Unicode character for "minus" sign (-) */
+    }
 
     .accordion {
         position: relative;
@@ -1338,7 +1349,7 @@ label>button:hover {
         overflow: hidden;
     }
 
-    /*! ======ACCORDION BLOCK======== */
+    /*! ==============================ACCORDION BLOCK======================= */
     .adaptive-block-1 {
         display: flex;
         flex-direction: column;
