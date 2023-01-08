@@ -1317,7 +1317,7 @@ label>button:hover {
     }
 
     .accordion:after {
-        content: '\2BB7';
+        content: '\002B';
         /* Unicode character for "plus" sign (+) */
         font-size: 18px;
         color: #777;
