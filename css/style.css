@@ -1325,7 +1325,7 @@ label>button:hover {
     }
 
     .active:after {
-        content: "\2BB5";
+        content: "\2212";
         /* Unicode character for "minus" sign (-) */
     }
 
