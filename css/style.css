@@ -896,7 +896,7 @@ label>button:hover {
     font-size: 18px;
     line-height: 20px;
     color: #FFFFFF;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .footer-logo-img {
@@ -1329,13 +1329,18 @@ label>button:hover {
         /* Unicode character for "minus" sign (-) */
     }
 
+    .accordion-wrapper h4 {
+        padding: 10px;
+        margin-right: -10px;
+        ;
+    }
+
     .accordion {
         position: relative;
         background: #252525;
         border: none;
         color: #fff;
         cursor: pointer;
-        padding: 18px;
     }
 
     .active,
