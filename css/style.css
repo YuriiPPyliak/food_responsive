@@ -771,7 +771,7 @@ li .slick-active button {
     line-height: 24px;
     color: #150C01;
     opacity: 0.7;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .elipse-img {
@@ -1028,8 +1028,6 @@ label>button:hover {
     .info {
         margin-top: 100px;
     }
-
-
 }
 
 /*!======= Adaptive for MOBILE=======*/
@@ -1309,11 +1307,19 @@ label>button:hover {
         display: none;
     }
 
-    /*! =========================ACCORDION BLOCK========================== */
+    /*! ===========ACCORDION BLOCK============ */
     .accordion-box {
         display: block;
         margin: 0 auto;
         text-align: center;
+    }
+
+    .accordion {
+        position: relative;
+        background: #252525;
+        border: none;
+        color: #fff;
+        cursor: pointer;
     }
 
     .accordion:after {
@@ -1332,15 +1338,6 @@ label>button:hover {
     .accordion-wrapper h4 {
         padding: 10px;
         margin-right: -10px;
-        ;
-    }
-
-    .accordion {
-        position: relative;
-        background: #252525;
-        border: none;
-        color: #fff;
-        cursor: pointer;
     }
 
     .active,
@@ -1354,7 +1351,7 @@ label>button:hover {
         overflow: hidden;
     }
 
-    /*! ==============================ACCORDION BLOCK======================= */
+    /*! =========ACCORDION BLOCK========= */
     .adaptive-block-1 {
         display: flex;
         flex-direction: column;
@@ -1401,7 +1398,6 @@ label>button:hover {
     .adaptive-media-lists {
         display: block;
         display: flex;
-        flex-direction: row;
         justify-content: center;
         gap: 50px;
     }
