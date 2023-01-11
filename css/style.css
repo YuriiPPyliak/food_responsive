@@ -502,7 +502,7 @@ table {
     padding-top: 40px;
 }
 
-.slick-dots li button {
+.slick-dots button {
     font-size: 0;
     width: 20px;
     height: 20px;
@@ -511,17 +511,12 @@ table {
     background: #fff;
 }
 
-li .slick-active button {
-    background-color: #005BBB;
-}
-
-.slick-dots button:hover {
-    background: #DC780B;
+.slider .slick-dots li.slick-active button {
+    background-color: #DC780B;
 }
 
 .slider-item .card {
     box-shadow: none;
-
 }
 
 /*? SlickSlider */
@@ -634,7 +629,7 @@ li .slick-active button {
     position: relative;
     width: 100%;
     background: rgba(251, 241, 231, 0.9);
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 
 }
 
@@ -819,7 +814,7 @@ li .slick-active button {
 .contact-block {
     text-align: center;
     background: rgba(251, 241, 231, 0.9);
-    padding: 110px 15px 130px;
+    padding: 80px 15px 130px;
 }
 
 .contact-item {
@@ -1341,9 +1336,10 @@ label>button:hover {
     }
 
     .panel {
+        max-height: 0;
         padding: 0 18px;
-        display: none;
         overflow: hidden;
+        transition: max-height 0.3s ease-out;
     }
 
     /*! =========ACCORDION BLOCK========= */
