@@ -1340,11 +1340,6 @@ label>button:hover {
         margin-right: -10px;
     }
 
-    .active,
-    .accordion:hover {
-        background-color: #252525;
-    }
-
     .panel {
         padding: 0 18px;
         display: none;
