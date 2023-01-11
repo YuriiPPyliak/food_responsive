@@ -630,7 +630,6 @@ table {
     width: 100%;
     background: rgba(251, 241, 231, 0.9);
     margin-bottom: 100px;
-
 }
 
 .mobile-wrapper {
@@ -1340,6 +1339,14 @@ label>button:hover {
         padding: 0 18px;
         overflow: hidden;
         transition: max-height 0.3s ease-out;
+    }
+
+    .panel-list {
+        transition: 0.3s;
+    }
+
+    .panel-list:hover {
+        transform: scale(1.1);
     }
 
     /*! =========ACCORDION BLOCK========= */
