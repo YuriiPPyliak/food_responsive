@@ -163,6 +163,12 @@ table {
 
 .logo-img {
     margin-right: 40px;
+    transform: scale(1);
+    transition: 1s;
+}
+
+.logo-img:hover {
+    transform: scale(1.5);
 }
 
 .nav-list {
